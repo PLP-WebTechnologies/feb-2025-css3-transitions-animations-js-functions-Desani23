@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Animated To-Do List with Persistence</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>A Basic To-Do List Application</h1>
+
+  <div class="todo-app">
+    <form id="taskForm">
+      <input type="text" id="taskInput" placeholder="Add a new task..." autocomplete="off" required />
+      <button type="submit">Add Task</button>
+    </form>
+
+    <div class="preference">
+      <input type="checkbox" id="toggleAnimation" />
+      <label for="toggleAnimation">Enable Animations</label>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
